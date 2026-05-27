@@ -1,5 +1,6 @@
 // app/api/github/route.ts
-import { GitHubSearchResponse } from '../../../types/github';
+// 正确路径
+import { GitHubSearchResponse } from '../../../types/github'
 
 export const revalidate = 3600; // 缓存1小时，避免频繁请求
 
